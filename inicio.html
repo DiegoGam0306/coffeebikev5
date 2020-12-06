@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Bike</title>
+    <link rel="stylesheet" href="node_modules\bulma\css\bulma.min.css">
+</head>
+<body>
+    <center>
+        <IMG src="img/Coffee.png" align="center" width="225" height="260">
+        <h3>Coffee Bike "Fresh Start"</h3>
+        <h1>Aqui puede comprar diferentes cafes, ¡todos entregados a domicilio!</h1>
+    </center>
+
+    <h2>Productos disponibles:</h2>
+    <h4>Inserte la cantidad del producto que desea ordenar.</h4>
+    <form action="compra.html" method="POST">
+
+        <label class="label" for="producto1"> Café simple </label>
+        <input class="input" type="number" id="producto1" name="producto1">
+        <h3>Descripción: </h3><h4> Un simple y delicioso café casero</h4>
+
+        <label class="label" for="producto2"> Café descafeinado </label>
+        <input class="input" type="number" id="producto2" name="producto2">
+        <h3>Descripción: </h3><h4> No necesitas cafeina para disfrutar un buen cafe</h4>
+
+        <label class="label" for="producto3"> Café con leche </label>
+        <input class="input" type="number" id="producto3" name="producto3">
+        <h3>Descripción: </h3><h4> Un cremoso café con leche que estamos seguros disfrutaras</h4>
+
+        <label class="label" for="producto4"> Café con leche descafeinado </label>
+        <input class="input" type="number" id="producto4" name="producto4">
+        <h3>Descripción: </h3><h4> No necesitas cafeina para disfrutar un buen cafe (con leche)</h4>
+        <br>
+        <center>
+            <input class="button" type="submit" value="Realizar orden">
+        </center>
+        <br>
+        
+    </form>
+</body>
+</html>

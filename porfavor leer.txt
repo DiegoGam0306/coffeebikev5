@@ -1,0 +1,2 @@
+Para acceder como cliente se deberia escribir "cliente" en el apartado tanto de usuario como de contraseña
+Para acceder como empleado es similar pero escribiendo "empleado" en vez de cliente

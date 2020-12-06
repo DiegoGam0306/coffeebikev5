@@ -1,0 +1,17 @@
+{
+    "name": "diego/coffeebikev4",
+    "description": "sistema de negocio",
+    "type": "project",
+    "authors": [
+        {
+            "name": "DiegoGam0306",
+            "email": "ariangamboa03@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/database": "^8.17",
+        "illuminate/events": "^8.17",
+        "slim/slim": "4.*",
+        "slim/psr7": "^1.3"
+    }
+}
